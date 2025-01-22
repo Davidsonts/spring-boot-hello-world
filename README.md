@@ -49,3 +49,12 @@
   <br/>```mvn -Dtest=HelloWorldControllerTest test```
   <br/>or
   <br/>```mvn -Dtest=HelloWorldApplicationTests test```
+
+  ---
+
+ <br/>```docker build -t spring-hello .```
+
+ <br/>```docker run -p8080:8080 spring-hello```
+
+- **Browser or REST client**
+  <br/>```http://localhost:8080/hello```
